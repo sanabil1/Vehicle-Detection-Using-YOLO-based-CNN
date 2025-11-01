@@ -1,0 +1,147 @@
+===============================================
+CAR DETECTION MODEL - TRAINING LOG
+===============================================
+Model: Simplified YOLO Architecture
+Dataset: 355 annotated training images
+===============================================
+
+PHASE 1: INITIAL TRAINING (Epochs 1-15)
+===============================================
+
+Model compiled successfully.
+
+Epoch 1/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 11s 176ms/step - loss: 0.0362
+Epoch 1: saving model to checkpoints/yolo_car_detector/model_epoch_01.weights.h5
+
+Epoch 2/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 7s 173ms/step - loss: 0.0165
+Epoch 2: saving model to checkpoints/yolo_car_detector/model_epoch_02.weights.h5
+
+Epoch 3/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 9s 207ms/step - loss: 0.0118
+Epoch 3: saving model to checkpoints/yolo_car_detector/model_epoch_03.weights.h5
+
+Epoch 4/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 7s 169ms/step - loss: 0.0069
+Epoch 4: saving model to checkpoints/yolo_car_detector/model_epoch_04.weights.h5
+
+Epoch 5/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 10s 221ms/step - loss: 0.0060
+Epoch 5: saving model to checkpoints/yolo_car_detector/model_epoch_05.weights.h5
+
+Epoch 6/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 8s 194ms/step - loss: 0.0072
+Epoch 6: saving model to checkpoints/yolo_car_detector/model_epoch_06.weights.h5
+
+Epoch 7/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 8s 180ms/step - loss: 0.0073
+Epoch 7: saving model to checkpoints/yolo_car_detector/model_epoch_07.weights.h5
+
+Epoch 8/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 9s 201ms/step - loss: 0.0060
+Epoch 8: saving model to checkpoints/yolo_car_detector/model_epoch_08.weights.h5
+
+Epoch 9/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 9s 198ms/step - loss: 0.0049
+Epoch 9: saving model to checkpoints/yolo_car_detector/model_epoch_09.weights.h5
+
+Epoch 10/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 8s 197ms/step - loss: 0.0033
+Epoch 10: saving model to checkpoints/yolo_car_detector/model_epoch_10.weights.h5
+
+Epoch 11/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 8s 186ms/step - loss: 0.0044
+Epoch 11: saving model to checkpoints/yolo_car_detector/model_epoch_11.weights.h5
+
+Epoch 12/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 9s 200ms/step - loss: 0.0060
+Epoch 12: saving model to checkpoints/yolo_car_detector/model_epoch_12.weights.h5
+
+Epoch 13/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 9s 199ms/step - loss: 0.0050
+Epoch 13: saving model to checkpoints/yolo_car_detector/model_epoch_13.weights.h5
+
+Epoch 14/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 8s 182ms/step - loss: 0.0029
+Epoch 14: saving model to checkpoints/yolo_car_detector/model_epoch_14.weights.h5
+
+Epoch 15/15
+44/44 ━━━━━━━━━━━━━━━━━━━━ 8s 177ms/step - loss: 0.0025
+Epoch 15: saving model to checkpoints/yolo_car_detector/model_epoch_15.weights.h5
+
+Training completed: 44 steps per epoch, 15 epochs total
+
+===============================================
+PHASE 2: EXTENDED TRAINING (Epochs 16-25)
+===============================================
+
+Loaded epoch 15 weights
+
+Epoch 16/25
+44/44 ━━━━━━━━━━━━━━━━━━━━ 9s 195ms/step - loss: 0.0020
+Epoch 16: saving model to checkpoints/yolo_car_detector/model_epoch_16.weights.h5
+
+Epoch 17/25
+44/44 ━━━━━━━━━━━━━━━━━━━━ 7s 168ms/step - loss: 0.0011
+Epoch 17: saving model to checkpoints/yolo_car_detector/model_epoch_17.weights.h5
+
+Epoch 18/25
+44/44 ━━━━━━━━━━━━━━━━━━━━ 9s 212ms/step - loss: 0.0017
+Epoch 18: saving model to checkpoints/yolo_car_detector/model_epoch_18.weights.h5
+
+Epoch 19/25
+44/44 ━━━━━━━━━━━━━━━━━━━━ 11s 251ms/step - loss: 0.0021
+Epoch 19: saving model to checkpoints/yolo_car_detector/model_epoch_19.weights.h5
+
+Epoch 20/25
+44/44 ━━━━━━━━━━━━━━━━━━━━ 8s 184ms/step - loss: 0.0016
+Epoch 20: saving model to checkpoints/yolo_car_detector/model_epoch_20.weights.h5
+
+Epoch 21/25
+44/44 ━━━━━━━━━━━━━━━━━━━━ 9s 200ms/step - loss: 0.0013
+Epoch 21: saving model to checkpoints/yolo_car_detector/model_epoch_21.weights.h5
+
+Epoch 22/25
+44/44 ━━━━━━━━━━━━━━━━━━━━ 9s 198ms/step - loss: 0.0013
+Epoch 22: saving model to checkpoints/yolo_car_detector/model_epoch_22.weights.h5
+
+Epoch 23/25
+44/44 ━━━━━━━━━━━━━━━━━━━━ 8s 189ms/step - loss: 0.0012
+Epoch 23: saving model to checkpoints/yolo_car_detector/model_epoch_23.weights.h5
+
+Epoch 24/25
+44/44 ━━━━━━━━━━━━━━━━━━━━ 8s 196ms/step - loss: 0.0009
+Epoch 24: saving model to checkpoints/yolo_car_detector/model_epoch_24.weights.h5
+
+Epoch 25/25
+44/44 ━━━━━━━━━━━━━━━━━━━━ 8s 189ms/step - loss: 0.0009
+Epoch 25: saving model to checkpoints/yolo_car_detector/model_epoch_25.weights.h5
+
+Extended training completed: epochs 16-25
+
+===============================================
+CHECKPOINT COMPARISON ANALYSIS
+===============================================
+
+Testing different epochs to find optimal checkpoint before overfitting:
+
+Epoch 10: TP=  4, FP=555, Precision=0.0072
+Epoch 11: TP= 20, FP=539, Precision=0.0358
+Epoch 12: TP=  0, FP=559, Precision=0.0000
+Epoch 13: TP= 41, FP=518, Precision=0.0733
+Epoch 14: TP= 22, FP=537, Precision=0.0394
+Epoch 15: TP= 73, FP=486, Precision=0.1306
+
+============================================================
+BEST MODEL: Epoch 15 with 73 correct predictions
+============================================================
+
+Further testing on extended epochs:
+
+Epoch 17: TP=  6, FP=553, Precision=0.0107
+Epoch 20: TP= 16, FP=543, Precision=0.0286
+Epoch 22: TP= 51, FP=508, Precision=0.0912
+Epoch 25: TP= 22, FP=537, Precision=0.0394
+
+Observation: Performance degraded after epoch 15 due to overfitting.
